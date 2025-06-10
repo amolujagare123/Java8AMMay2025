@@ -10,8 +10,10 @@ public class ArrayDemo1 {
         a[3] = 37;
         a[4] = 31;
 
+        System.out.println("length="+a.length);
+
         System.out.println("using for loop");
-        for(int i=0 ;i <5 ; i++)
+        for(int i=0 ;i < 5 ; i++)
            System.out.println(a[i]);
 
         System.out.println("using for each loop");
