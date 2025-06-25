@@ -2,7 +2,7 @@ package InheritanceDemo.Polymorphism;
 
 // Base class
 class Showroom {
-    void channels() {
+     void channels() {
         System.out.println("Displaying channels feature.");
     }
 
@@ -18,7 +18,7 @@ class Showroom {
 // Onida class extending Showroom
 class Onida extends Showroom {
 
-    void channels() {
+    public void channels() {
         System.out.println("Onida: Displaying channels.");
     }
 

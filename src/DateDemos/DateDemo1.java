@@ -11,7 +11,11 @@ public class DateDemo1 {
         System.out.println(date);
 
         SimpleDateFormat sd = new SimpleDateFormat("dd/MM/yyyy");
+
+
         String dateStr = sd.format(date);
+
+
         System.out.println("dateStr="+dateStr);
 
       //  → dd-MMMM-yyyy

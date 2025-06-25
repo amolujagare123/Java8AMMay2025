@@ -11,7 +11,10 @@ public class DateDemo2 {
         System.out.println(dateStr);
 
         SimpleDateFormat sd = new SimpleDateFormat("MM/dd/yyyy");
+
         Date date = sd.parse(dateStr);
+
+
         System.out.println("date="+date);
 
         String dateStr0= "23-June-2016" ;
